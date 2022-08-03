@@ -10,7 +10,7 @@ function App() {
 
   return (
     <Stack justifyItems="center" my={5} textAlign="center">
-      <Heading>Aplicacion</Heading>
+      <Heading>Aplicacion Login/Logout</Heading>
       {isAuthenticated ? <LogoutButton /> : <LoginButton />}
       <Profile />
     </Stack>
